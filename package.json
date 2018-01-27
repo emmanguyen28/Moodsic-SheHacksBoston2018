@@ -1,0 +1,24 @@
+{
+  "name": "shehacks2018",
+  "version": "1.0.0",
+  "description": "This is a project for SheHacks Boston 2018.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emmanguyen28/sheHacks2018.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emmanguyen28/sheHacks2018/issues"
+  },
+  "homepage": "https://github.com/emmanguyen28/sheHacks2018#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "nodemon": "^1.14.11"
+  }
+}
