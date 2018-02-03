@@ -1,24 +1,45 @@
 {
-  "name": "shehacks2018",
-  "version": "1.0.0",
-  "description": "This is a project for SheHacks Boston 2018.",
-  "main": "index.js",
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "my-glitch-app",
+  "version": "0.0.1",
+  "description": "Spotify playlist generator tailored to your location's weather",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/emmanguyen28/sheHacks2018.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/emmanguyen28/sheHacks2018/issues"
-  },
-  "homepage": "https://github.com/emmanguyen28/sheHacks2018#readme",
   "dependencies": {
     "express": "^4.16.2",
-    "nodemon": "^1.14.11"
-  }
+    "passport-spotify": "^0.3.1",
+    "dotenv": "^4.0.0",
+    "body-parser": "1.3.1",
+    "consolidate": "~0.10.0",
+    "cookie-parser": "1.3.1",
+    "express-session": "1.4.0",
+    "method-override": "2.0.2",
+    "passport": "~0.2.0",
+    "swig": "~1.3.2",
+    "spotify-web-api-node": "^2.5.0",
+    "spotify-refresh": "^2.0.3",
+    "spotify-playlist": "^0.0.4",
+    "ejs": "^2.5.7",
+    "karma-browserify": "^5.1.3",
+    "bootstrap": "^4.0.0",
+    "browserify": "^15.2.0",
+    "request": "^2.83.0",
+    "startbootstrap-grayscale": "^3.3.7"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/welcome-project"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
 }

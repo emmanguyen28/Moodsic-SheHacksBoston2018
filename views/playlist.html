@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+  <html>
+    <head>
+      <title>Playlist</title>
+      
+             <script type = "text/javascript">
+      function getZipCode() {
+        var input = document.getElementById("input");
+        var zipCode = input.value;
+      }
+      </script>
+
+      <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+        <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">    
+  </head>
+  <body>
+    <header>
+      <h1>
+        Mood: 
+      </h1>
+      <h2 id="mood">
+      </h2>
+    </header>                                      
+    
+    <main>
+      <div id="videoWrapper" >
+      </div>
+    </main>
+
+    <h2>
+      It is partly cloudy in Boston. Listen to our good vibes playlist for a boost! 
+    </h2>
+    <!-- Your web-app is https, so your scripts need to be too -->      
+   <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="/client.js"></script>    
+    <script src="/weather_api.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      
+  </body>
+</html>

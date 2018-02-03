@@ -1,0 +1,45 @@
+body {
+	background-image: url(https://i.imgur.com/SkUJIKR.gif);
+	background-color: lightblue;
+	background-repeat: repeat-x;
+}
+
+.container {
+	/*display: flex;
+	justify-content: center;
+	margin: auto;
+	width: 100%;
+	color: RED;
+	position: relative;
+	vertical-align: middle;
+	text-align: center;
+	margin-bottom: -50%*/
+	width: 100%
+
+}
+
+.hor-align {
+    text-align: center;
+    height: 800px;
+    position: relative;
+}
+
+.vertical-align {
+    position: relative;
+    top: 50%;
+    left: 40%;
+    margin-right: -50px;
+}
+
+
+.btn {
+  color: #ffffff;
+  font-size: 13px;
+  background: #1ED760;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3498db;
+  text-decoration: none;
+}
