@@ -3,7 +3,7 @@ Moodsic believes in the power of music and the weather to influence your emotion
 =========================
 Created during SheHacks Boston, January 26-28, 2018
 
-Ha Nguyen, Mount Holyoke College, Sophomore <br/>
+Emma Nguyen, Mount Holyoke College, Sophomore <br/>
 Kellie Dinh, Bryn Mawr College, Junior <br/>
 Regina Lin, University of Pennsylvania, Junior <br/>
 Tam Minh Vu, Northeastern University, Sophomore <br/>
